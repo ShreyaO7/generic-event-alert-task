@@ -14,7 +14,6 @@ const registerWebhook = (req, res) => {
   webhooksMap.set(tenantId, existing);
 
   alertQueue.push({ type: "Webhook registered", tenantId });
-  console.log("push in alertQueue", alertQueue);
   return res.status(201).json({ message: "Webhook registered" });
 };
 

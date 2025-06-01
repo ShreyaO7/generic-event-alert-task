@@ -17,7 +17,7 @@ const startDeliveryWorker = () => {
       );
       for (const hook of hooks) {
         try {
-          console.log("url is=>", hook);
+
           await axios.post(hook.url, event.payload);
           await sendEmail(event);
 

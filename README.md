@@ -2,7 +2,8 @@
 
 This is a generic event alert service which can be used to send webhooks or emails when an event occurs.
 
-
+## Git repository 
+  https://github.com/ShreyaO7/generic-event-alert-task
 
 
 ### Webhook
@@ -59,6 +60,7 @@ Used `nodemailer` with `Ethereal` to test emails during development.
  ```
 
 6.  Use a tool like `postman` to test the routes
+https://www.postman.com/shreyao100/generic-event-alert/request/pnl5b7f/webhook-register
 
 
 ## Testing

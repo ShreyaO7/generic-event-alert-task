@@ -1,5 +1,5 @@
 const express = require("express");
-// const dotenv = require("dotenv");
+
 const webhookRoutes = require("./routes/webhookRoutes.js");
 const eventRoutes = require("./routes/eventRoutes.js");
 const { startDeliveryWorker } = require("./services/deliveryWorker.js");
