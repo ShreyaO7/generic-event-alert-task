@@ -90,3 +90,13 @@ In production, replace them with Redis or a database for persistence and scalabi
 - Replace queues (eventQueue, alertQueue) with Redis lists or DB tables
 - Replace Map<tenantId, webhooks> with Redis Hashes or a webhooks collection/table
 - Use Redis Streams or BullMQ for more reliable and observable background jobs
+
+##  Output
+- Slack output
+![alt text](<Screenshot 2025-06-02 103501.png>)
+
+-Nodemailer(Ethereal) output
+![alt text](<Screenshot 2025-06-02 103811.png>)
+
+-Webhook.site output
+![alt text](<Screenshot 2025-06-02 103552.png>)
